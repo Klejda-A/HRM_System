@@ -1,0 +1,13 @@
+# Inputfile containing employees. Fields are separated using commas. Lines
+# starting with a hash symbol (#) and empty lines need to be skipped. Valid
+# lines consist of a name and a salary. If someone is a manager, the line continues
+# with the word manager, followed by the names of the employees the person manages.
+
+Henk,50000
+Paul,50000
+Willem,50000,manager,Henk
+Dirk
+12,Jaap
+Tristan,50000
+Evert,100000,manager,Paul,Willem,Tristan
+Klaas,five
